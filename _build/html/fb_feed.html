@@ -1,0 +1,576 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>FB_Feed &mdash; Social App Framework - SAF 1.0.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Social App Framework - SAF 1.0.0 documentation" href="index.html" />
+    <link rel="next" title="FB_Helper" href="fb_helper.html" />
+    <link rel="prev" title="SAF_Signed_Request" href="saf_signed_request.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="fb_helper.html" title="FB_Helper"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="saf_signed_request.html" title="SAF_Signed_Request"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Social App Framework - SAF 1.0.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="fb-feed">
+<h1>FB_Feed<a class="headerlink" href="#fb-feed" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="methods">
+<h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setfacebook">
+<h3>setFacebook<a class="headerlink" href="#setfacebook" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFacebook">
+<tt class="descname">setFacebook</tt><big>(</big><big>)</big><a class="headerlink" href="#setFacebook" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET FACEBOOK</p>
+<p>Set the facebook sdk instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$facebook</strong> &#8211; SDK instance</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setaccesstoken">
+<h3>setAccessToken<a class="headerlink" href="#setaccesstoken" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAccessToken">
+<tt class="descname">setAccessToken</tt><big>(</big><big>)</big><a class="headerlink" href="#setAccessToken" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET ACCESS TOKEN</p>
+<p>Set the access token to use</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$token</strong> &#8211; token</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfrom">
+<h3>setFrom<a class="headerlink" href="#setfrom" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFrom">
+<tt class="descname">setFrom</tt><big>(</big><big>)</big><a class="headerlink" href="#setFrom" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET FROM</p>
+<p>The ID or username of the user posting the message.
+If this is unspecified, it defaults to the current user.
+If specified, it must be the ID of the user or of a
+page that the user administers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$user_id</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setto">
+<h3>setTo<a class="headerlink" href="#setto" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTo">
+<tt class="descname">setTo</tt><big>(</big><big>)</big><a class="headerlink" href="#setTo" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET TO</p>
+<p>The ID or username of the profile that this story will be
+published to. If this is unspecified, it defaults to the
+value of from.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$user_id</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setlink">
+<h3>setLink<a class="headerlink" href="#setlink" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setLink">
+<tt class="descname">setLink</tt><big>(</big><big>)</big><a class="headerlink" href="#setLink" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET LINK</p>
+<p>The link attached to this post</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$url</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpicture">
+<h3>setPicture<a class="headerlink" href="#setpicture" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPicture">
+<tt class="descname">setPicture</tt><big>(</big><big>)</big><a class="headerlink" href="#setPicture" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET PICTURE</p>
+<p>The URL of a picture attached to this post. The picture
+must be at least 50px by 50px and have a maximum aspect
+ratio of 3:1</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$url</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setsource">
+<h3>setSource<a class="headerlink" href="#setsource" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSource">
+<tt class="descname">setSource</tt><big>(</big><big>)</big><a class="headerlink" href="#setSource" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET SOURCE</p>
+<p>The URL of a media file (either SWF or MP3) attached to
+this post. If both source and picture are specified,
+only source is used.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$url</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setname">
+<h3>setName<a class="headerlink" href="#setname" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setName">
+<tt class="descname">setName</tt><big>(</big><big>)</big><a class="headerlink" href="#setName" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET NAME</p>
+<p>The name of the link attachment.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcaption">
+<h3>setCaption<a class="headerlink" href="#setcaption" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCaption">
+<tt class="descname">setCaption</tt><big>(</big><big>)</big><a class="headerlink" href="#setCaption" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET CAPTION</p>
+<p>The caption of the link (appears beneath the link name).
+If not specified, this field is automatically populated
+with the URL of the link.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdescription">
+<h3>setDescription<a class="headerlink" href="#setdescription" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDescription">
+<tt class="descname">setDescription</tt><big>(</big><big>)</big><a class="headerlink" href="#setDescription" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET DESCRIPTION</p>
+<p>The description of the link (appears beneath the link
+caption). If not specified, this field is automatically
+populated by information scraped from the link,
+typically the title of the page.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setmessage">
+<h3>setMessage<a class="headerlink" href="#setmessage" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setMessage">
+<tt class="descname">setMessage</tt><big>(</big><big>)</big><a class="headerlink" href="#setMessage" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET MESSAGE</p>
+<p>The message that appears in the post. Facebook
+suggests not pre-populating this parameter?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setproperties">
+<h3>setProperties<a class="headerlink" href="#setproperties" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setProperties">
+<tt class="descname">setProperties</tt><big>(</big><big>)</big><a class="headerlink" href="#setProperties" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET PROPERTIES</p>
+<p>A JSON object of key/value pairs which will appear in
+the stream attachment beneath the description, with
+each property on its own line. Keys must be strings,
+and values can be either strings or JSON objects with
+the keys text and href.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$json_obj</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setactions">
+<h3>setActions<a class="headerlink" href="#setactions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setActions">
+<tt class="descname">setActions</tt><big>(</big><big>)</big><a class="headerlink" href="#setActions" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET ACTIONS</p>
+<p>A JSON array containing a single object describing the
+action link which will appear next to the &#8220;Comment&#8221;
+and &#8220;Like&#8221; link under posts. The contained object must
+have the keys name and link.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$json_obj</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setref">
+<h3>setRef<a class="headerlink" href="#setref" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setRef">
+<tt class="descname">setRef</tt><big>(</big><big>)</big><a class="headerlink" href="#setRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>SET REF</p>
+<p>A text reference for the category of feed post. This
+category is used in Facebook Insights to help you
+measure the performance of different types of post</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$json_obj</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="construct">
+<h3>__construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>CONSTRUCTOR</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$facebook</strong> &#8211; SDK instance (can be set later before publish is called)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="publish">
+<h3>publish<a class="headerlink" href="#publish" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">publish</tt><big>(</big><big>)</big></dt>
+<dd><p>PUBLISH</p>
+<p>Publish a facebook feed and returns an object
+with success or failure info</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$profile_id</strong> &#8211; of the user/page to publish to</li>
+<li><strong>$type</strong> &#8211; or page eg - FB_PublishFeed::TYPE_USER</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">object</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createaction">
+<h3>createAction<a class="headerlink" href="#createaction" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createAction">
+<tt class="descname">createAction</tt><big>(</big><big>)</big><a class="headerlink" href="#createAction" title="Permalink to this definition">¶</a></dt>
+<dd><p>CREATE ACTION</p>
+<p>Returns an associative array for an action link</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> &#8211; name</li>
+<li><strong>$link</strong> &#8211; value</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createproperty">
+<h3>createProperty<a class="headerlink" href="#createproperty" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createProperty">
+<tt class="descname">createProperty</tt><big>(</big><big>)</big><a class="headerlink" href="#createProperty" title="Permalink to this definition">¶</a></dt>
+<dd><p>CREATE PROPERTY</p>
+<p>Returns an associative array for an property link</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> &#8211; </li>
+<li><strong>$text</strong> &#8211; text</li>
+<li><strong>$href</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="publishdata">
+<h3>_publishData<a class="headerlink" href="#publishdata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_publishData">
+<tt class="descname">_publishData</tt><big>(</big><big>)</big><a class="headerlink" href="#_publishData" title="Permalink to this definition">¶</a></dt>
+<dd><p>PUBLISH DATA</p>
+<p>Returns an associative array with only valid (non null) params</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="type-user">
+<h4>TYPE_USER<a class="headerlink" href="#type-user" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-page">
+<h4>TYPE_PAGE<a class="headerlink" href="#type-page" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">FB_Feed</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a><ul>
+<li><a class="reference internal" href="#setfacebook">setFacebook</a></li>
+<li><a class="reference internal" href="#setaccesstoken">setAccessToken</a></li>
+<li><a class="reference internal" href="#setfrom">setFrom</a></li>
+<li><a class="reference internal" href="#setto">setTo</a></li>
+<li><a class="reference internal" href="#setlink">setLink</a></li>
+<li><a class="reference internal" href="#setpicture">setPicture</a></li>
+<li><a class="reference internal" href="#setsource">setSource</a></li>
+<li><a class="reference internal" href="#setname">setName</a></li>
+<li><a class="reference internal" href="#setcaption">setCaption</a></li>
+<li><a class="reference internal" href="#setdescription">setDescription</a></li>
+<li><a class="reference internal" href="#setmessage">setMessage</a></li>
+<li><a class="reference internal" href="#setproperties">setProperties</a></li>
+<li><a class="reference internal" href="#setactions">setActions</a></li>
+<li><a class="reference internal" href="#setref">setRef</a></li>
+<li><a class="reference internal" href="#construct">__construct</a></li>
+<li><a class="reference internal" href="#publish">publish</a></li>
+<li><a class="reference internal" href="#createaction">createAction</a></li>
+<li><a class="reference internal" href="#createproperty">createProperty</a></li>
+<li><a class="reference internal" href="#publishdata">_publishData</a></li>
+<li><a class="reference internal" href="#constants">Constants</a><ul>
+<li><a class="reference internal" href="#type-user">TYPE_USER</a></li>
+<li><a class="reference internal" href="#type-page">TYPE_PAGE</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="saf_signed_request.html"
+                        title="previous chapter">SAF_Signed_Request</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="fb_helper.html"
+                        title="next chapter">FB_Helper</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/fb_feed.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="fb_helper.html" title="FB_Helper"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="saf_signed_request.html" title="SAF_Signed_Request"
+             >previous</a> |</li>
+        <li><a href="index.html">Social App Framework - SAF 1.0.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Tim Santor.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
