@@ -9,7 +9,7 @@ Welcome to Social App Framework - SAF's documentation!
 Table of Contents
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 6
    :glob:
 
    saf*
