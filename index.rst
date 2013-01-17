@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to Social App Framework - SAF's Architecture generated using docpx.
-======================================================
+===========================================================================
 
 Table of Contents
 
