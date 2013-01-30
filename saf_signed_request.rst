@@ -1,100 +1,115 @@
-.. /saf_signed_request.php generated using docpx on 01/16/13 09:23pm
+.. saf_signed_request.php generated using docpx on 01/30/13 03:58pm
 
+
+Class
+*****
 
 SAF_Signed_Request
-******************
-
-
+==================
 
 Methods
-=======
+-------
 
 getUserId
----------
++++++++++
 
 .. function:: getUserId()
 
 
+    Returns the user ID
+
+
+    :rtype: string|int 
+
+
 
 getPageId
----------
++++++++++
 
 .. function:: getPageId()
 
 
+    Returns the page ID
+
+
+    :rtype: string|int 
+
+
 
 getAppData
-----------
+++++++++++
 
 .. function:: getAppData()
 
 
+    Returns the app data
+
+
+    :rtype: mixed 
+
+
 
 isPageAdmin
------------
++++++++++++
 
 .. function:: isPageAdmin()
 
 
+    Returns true if the user is the page admin
+
+
+    :rtype: boolean 
+
+
 
 isPageLiked
------------
++++++++++++
 
 .. function:: isPageLiked()
 
 
+    Returns true if the user likes this page
+
+
+    :rtype: boolean 
+
+
 
 isPageLikeViaFanGate
---------------------
+++++++++++++++++++++
 
 .. function:: isPageLikeViaFanGate()
 
 
-
-setExtendedAccessToken
-----------------------
-
-.. function:: setExtendedAccessToken()
+    Returns true if the page was liked via fan gate
 
 
-    EXCHANGE SHORT-LIVED ACCESS TOKEN FOR A LONG-LIVED ACCESS TOKEN
-    
-    Overrides the Facebook SDK's setExtendedAccessToken() method.
-    The Facebook SDK (3.2.2) doesn't set the access token property to the
-    long-lived token for some strange reason so getAccessToken() will still
-    return the short-lived token. So we have to get it from the app session
-    where the Facebook SDK stores it and manually set the access token to the
-    long-lived one.
-
-
-    :rtype: void 
+    :rtype: boolean 
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
 
-    CONSTRUCTOR
+    Constructor
 
+
+    :param SAF_Base: 
 
     :rtype: void 
 
 
 
-_facebookConnect
-----------------
+_init
++++++
 
-.. function:: _facebookConnect()
+.. function:: _init()
 
 
-    Facebook Connect
-    
-    Upon user login (authentication) Facebook Connect apps will have 'state'
-    and 'code' parameters passed.  The code must be exchanged for an access
-    token.
+    Init
 
 
     :rtype: void 
@@ -102,13 +117,11 @@ _facebookConnect
 
 
 _forceFacebookChrome
---------------------
+++++++++++++++++++++
 
 .. function:: _forceFacebookChrome()
 
 
-    FORCE FACEBOOK CHROME
-    
     Ensure the user is viewing the tab or canvas app within the
     Facebook chrome.
 

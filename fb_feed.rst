@@ -1,16 +1,17 @@
-.. /fb_feed.php generated using docpx on 01/16/13 09:23pm
+.. fb_feed.php generated using docpx on 01/30/13 03:57pm
 
+
+Class
+*****
 
 FB_Feed
-*******
-
-
-
-Methods
 =======
 
+Methods
+-------
+
 setFacebook
------------
++++++++++++
 
 .. function:: setFacebook()
 
@@ -27,7 +28,7 @@ setFacebook
 
 
 setAccessToken
---------------
+++++++++++++++
 
 .. function:: setAccessToken()
 
@@ -44,7 +45,7 @@ setAccessToken
 
 
 setFrom
--------
++++++++
 
 .. function:: setFrom()
 
@@ -64,7 +65,7 @@ setFrom
 
 
 setTo
------
++++++
 
 .. function:: setTo()
 
@@ -83,7 +84,7 @@ setTo
 
 
 setLink
--------
++++++++
 
 .. function:: setLink()
 
@@ -100,7 +101,7 @@ setLink
 
 
 setPicture
-----------
+++++++++++
 
 .. function:: setPicture()
 
@@ -119,7 +120,7 @@ setPicture
 
 
 setSource
----------
++++++++++
 
 .. function:: setSource()
 
@@ -138,7 +139,7 @@ setSource
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -155,7 +156,7 @@ setName
 
 
 setCaption
-----------
+++++++++++
 
 .. function:: setCaption()
 
@@ -174,7 +175,7 @@ setCaption
 
 
 setDescription
---------------
+++++++++++++++
 
 .. function:: setDescription()
 
@@ -194,7 +195,7 @@ setDescription
 
 
 setMessage
-----------
+++++++++++
 
 .. function:: setMessage()
 
@@ -212,7 +213,7 @@ setMessage
 
 
 setProperties
--------------
++++++++++++++
 
 .. function:: setProperties()
 
@@ -233,7 +234,7 @@ setProperties
 
 
 setActions
-----------
+++++++++++
 
 .. function:: setActions()
 
@@ -253,7 +254,7 @@ setActions
 
 
 setRef
-------
+++++++
 
 .. function:: setRef()
 
@@ -272,7 +273,7 @@ setRef
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -287,7 +288,7 @@ __construct
 
 
 publish
--------
++++++++
 
 .. function:: publish()
 
@@ -306,7 +307,7 @@ publish
 
 
 createAction
-------------
+++++++++++++
 
 .. function:: createAction()
 
@@ -324,7 +325,7 @@ createAction
 
 
 createProperty
---------------
+++++++++++++++
 
 .. function:: createProperty()
 
@@ -343,7 +344,7 @@ createProperty
 
 
 _publishData
-------------
+++++++++++++
 
 .. function:: _publishData()
 

@@ -1,114 +1,115 @@
-.. /saf_fan_page.php generated using docpx on 01/16/13 09:23pm
+.. saf_fan_page.php generated using docpx on 01/30/13 03:57pm
 
+
+Class
+*****
 
 SAF_Fan_Page
-************
-
-
+============
 
 Methods
-=======
+-------
 
 getPageData
------------
++++++++++++
 
 .. function:: getPageData()
 
 
 
 getPageAccessToken
-------------------
+++++++++++++++++++
 
 .. function:: getPageAccessToken()
 
 
 
 getPageName
------------
++++++++++++
 
 .. function:: getPageName()
 
 
 
 getPageProfileUrl
------------------
++++++++++++++++++
 
 .. function:: getPageProfileUrl()
 
 
 
 getPageProfilePicture
----------------------
++++++++++++++++++++++
 
 .. function:: getPageProfilePicture()
 
 
 
 getPageLikes
-------------
+++++++++++++
 
 .. function:: getPageLikes()
 
 
 
 getPageWebsite
---------------
+++++++++++++++
 
 .. function:: getPageWebsite()
 
 
 
 getPageTabUrl
--------------
++++++++++++++
 
 .. function:: getPageTabUrl()
 
 
 
 getAddPageTabUrl
-----------------
+++++++++++++++++
 
 .. function:: getAddPageTabUrl()
 
 
 
 getCanvasUrl
-------------
+++++++++++++
 
 .. function:: getCanvasUrl()
 
 
 
 isPagePublished
----------------
++++++++++++++++
 
 .. function:: isPagePublished()
 
 
 
 hasPageRestrictions
--------------------
++++++++++++++++++++
 
 .. function:: hasPageRestrictions()
 
 
 
 getRssUrl
----------
++++++++++
 
 .. function:: getRssUrl()
 
 
 
 setPageId
----------
++++++++++
 
 .. function:: setPageId()
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -121,7 +122,7 @@ __construct
 
 
 _injectSAFData
---------------
+++++++++++++++
 
 .. function:: _injectSAFData()
 
@@ -136,7 +137,7 @@ _injectSAFData
 
 
 _getPageValue
--------------
++++++++++++++
 
 .. function:: _getPageValue()
 

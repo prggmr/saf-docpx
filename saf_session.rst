@@ -1,226 +1,227 @@
-.. /saf_session.php generated using docpx on 01/16/13 09:23pm
+.. saf_session.php generated using docpx on 01/30/13 03:57pm
 
+
+Class
+*****
 
 SAF_Session
-***********
-
-
+===========
 
 Methods
-=======
+-------
 
 getAppId
---------
+++++++++
 
 .. function:: getAppId()
 
 
 
 getPageData
------------
++++++++++++
 
 .. function:: getPageData()
 
 
 
 getPageAccessToken
-------------------
+++++++++++++++++++
 
 .. function:: getPageAccessToken()
 
 
 
 getPageId
----------
++++++++++
 
 .. function:: getPageId()
 
 
 
 getPageName
------------
++++++++++++
 
 .. function:: getPageName()
 
 
 
 getPageProfileUrl
------------------
++++++++++++++++++
 
 .. function:: getPageProfileUrl()
 
 
 
 getPageProfilePicture
----------------------
++++++++++++++++++++++
 
 .. function:: getPageProfilePicture()
 
 
 
 getPageLikes
-------------
+++++++++++++
 
 .. function:: getPageLikes()
 
 
 
 getPageWebsite
---------------
+++++++++++++++
 
 .. function:: getPageWebsite()
 
 
 
 getPageTabUrl
--------------
++++++++++++++
 
 .. function:: getPageTabUrl()
 
 
 
 getAddPageTabUrl
-----------------
+++++++++++++++++
 
 .. function:: getAddPageTabUrl()
 
 
 
 getCanvasUrl
-------------
+++++++++++++
 
 .. function:: getCanvasUrl()
 
 
 
 isPageLiked
------------
++++++++++++
 
 .. function:: isPageLiked()
 
 
 
 isPagePublished
----------------
++++++++++++++++
 
 .. function:: isPagePublished()
 
 
 
 hasPageRestrictions
--------------------
++++++++++++++++++++
 
 .. function:: hasPageRestrictions()
 
 
 
 getUserData
------------
++++++++++++
 
 .. function:: getUserData()
 
 
 
 getUserId
----------
++++++++++
 
 .. function:: getUserId()
 
 
 
 getUserName
------------
++++++++++++
 
 .. function:: getUserName()
 
 
 
 getUserFirstName
-----------------
+++++++++++++++++
 
 .. function:: getUserFirstName()
 
 
 
 getUserLastName
----------------
++++++++++++++++
 
 .. function:: getUserLastName()
 
 
 
 getUserGender
--------------
++++++++++++++
 
 .. function:: getUserGender()
 
 
 
 getUserEmail
-------------
+++++++++++++
 
 .. function:: getUserEmail()
 
 
 
 getUserProfileUrl
------------------
++++++++++++++++++
 
 .. function:: getUserProfileUrl()
 
 
 
 getUserProfilePicture
----------------------
++++++++++++++++++++++
 
 .. function:: getUserProfilePicture()
 
 
 
 getUserGrantedPerms
--------------------
++++++++++++++++++++
 
 .. function:: getUserGrantedPerms()
 
 
 
 getUserRevokedPerms
--------------------
++++++++++++++++++++
 
 .. function:: getUserRevokedPerms()
 
 
 
 isPageAdmin
------------
++++++++++++
 
 .. function:: isPageAdmin()
 
 
 
 isAppDeveloper
---------------
+++++++++++++++
 
 .. function:: isAppDeveloper()
 
 
 
 isAuthenticated
----------------
++++++++++++++++
 
 .. function:: isAuthenticated()
 
 
 
 hasPermission
--------------
++++++++++++++
 
 .. function:: hasPermission()
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -235,7 +236,7 @@ __construct
 
 
 setPersistentData
------------------
++++++++++++++++++
 
 .. function:: setPersistentData()
 
@@ -252,7 +253,7 @@ setPersistentData
 
 
 getPersistentData
------------------
++++++++++++++++++
 
 .. function:: getPersistentData()
 
@@ -268,7 +269,7 @@ getPersistentData
 
 
 _getPersistentSignedRequestData
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: _getPersistentSignedRequestData()
 
@@ -285,7 +286,7 @@ _getPersistentSignedRequestData
 
 
 _getPersistentPageData
-----------------------
+++++++++++++++++++++++
 
 .. function:: _getPersistentPageData()
 
@@ -302,7 +303,7 @@ _getPersistentPageData
 
 
 _getPersistentUserData
-----------------------
+++++++++++++++++++++++
 
 .. function:: _getPersistentUserData()
 
@@ -319,7 +320,7 @@ _getPersistentUserData
 
 
 _constructSessionVariableName
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: _constructSessionVariableName()
 

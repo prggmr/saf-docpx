@@ -1,4 +1,4 @@
-.. facebook_sdk/base_facebook.php generated using docpx on 01/30/13 03:57pm
+.. facebook/sdk/base_facebook.php generated using docpx on 01/30/13 03:58pm
 
 
 Class

@@ -1,135 +1,136 @@
-.. /saf_facebook_user.php generated using docpx on 01/16/13 09:23pm
+.. saf_facebook_user.php generated using docpx on 01/30/13 03:57pm
 
+
+Class
+*****
 
 SAF_Facebook_User
-*****************
-
-
+=================
 
 Methods
-=======
+-------
 
 getUserData
------------
++++++++++++
 
 .. function:: getUserData()
 
 
 
 getUserName
------------
++++++++++++
 
 .. function:: getUserName()
 
 
 
 getUserFirstName
-----------------
+++++++++++++++++
 
 .. function:: getUserFirstName()
 
 
 
 getUserLastName
----------------
++++++++++++++++
 
 .. function:: getUserLastName()
 
 
 
 getUserGender
--------------
++++++++++++++
 
 .. function:: getUserGender()
 
 
 
 getUserEmail
-------------
+++++++++++++
 
 .. function:: getUserEmail()
 
 
 
 getUserProfileUrl
------------------
++++++++++++++++++
 
 .. function:: getUserProfileUrl()
 
 
 
 getUserProfilePicture
----------------------
++++++++++++++++++++++
 
 .. function:: getUserProfilePicture()
 
 
 
 getExtendedPerms
-----------------
+++++++++++++++++
 
 .. function:: getExtendedPerms()
 
 
 
 getGrantedPerms
----------------
++++++++++++++++
 
 .. function:: getGrantedPerms()
 
 
 
 getRevokedPerms
----------------
++++++++++++++++
 
 .. function:: getRevokedPerms()
 
 
 
 getLoginUrl
------------
++++++++++++
 
 .. function:: getLoginUrl()
 
 
 
 getLogoutUrl
-------------
+++++++++++++
 
 .. function:: getLogoutUrl()
 
 
 
 getLoginLink
-------------
+++++++++++++
 
 .. function:: getLoginLink()
 
 
 
 getLogoutLink
--------------
++++++++++++++
 
 .. function:: getLogoutLink()
 
 
 
 isAppDeveloper
---------------
+++++++++++++++
 
 .. function:: isAppDeveloper()
 
 
 
 isAuthenticated
----------------
++++++++++++++++
 
 .. function:: isAuthenticated()
 
 
 
 hasPermission
--------------
++++++++++++++
 
 .. function:: hasPermission()
 
@@ -145,14 +146,14 @@ hasPermission
 
 
 setRedirectUrl
---------------
+++++++++++++++
 
 .. function:: setRedirectUrl()
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -165,7 +166,7 @@ __construct
 
 
 _thirdPartyCookieFix
---------------------
+++++++++++++++++++++
 
 .. function:: _thirdPartyCookieFix()
 
@@ -183,7 +184,7 @@ _thirdPartyCookieFix
 
 
 _determineRedirectUrl
----------------------
++++++++++++++++++++++
 
 .. function:: _determineRedirectUrl()
 
@@ -198,7 +199,7 @@ _determineRedirectUrl
 
 
 _handleException
-----------------
+++++++++++++++++
 
 .. function:: _handleException()
 
@@ -211,7 +212,7 @@ _handleException
 
 
 _isAppDeveloper
----------------
++++++++++++++++
 
 .. function:: _isAppDeveloper()
 
@@ -224,7 +225,7 @@ _isAppDeveloper
 
 
 _checkPermissions
------------------
++++++++++++++++++
 
 .. function:: _checkPermissions()
 
@@ -237,7 +238,7 @@ _checkPermissions
 
 
 _getUserValue
--------------
++++++++++++++
 
 .. function:: _getUserValue()
 

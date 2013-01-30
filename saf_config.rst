@@ -1,16 +1,17 @@
-.. /saf_config.php generated using docpx on 01/16/13 09:23pm
+.. saf_config.php generated using docpx on 01/30/13 03:58pm
 
+
+Class
+*****
 
 SAF_Config
-**********
-
-
+==========
 
 Methods
-=======
+-------
 
 setAppType
-----------
+++++++++++
 
 .. function:: setAppType()
 
@@ -22,7 +23,7 @@ setAppType
 
 
 getAppType
-----------
+++++++++++
 
 .. function:: getAppType()
 
@@ -32,7 +33,7 @@ getAppType
 
 
 setAppId
---------
+++++++++
 
 .. function:: setAppId()
 
@@ -44,7 +45,7 @@ setAppId
 
 
 getAppId
---------
+++++++++
 
 .. function:: getAppId()
 
@@ -54,7 +55,7 @@ getAppId
 
 
 setAppSecret
-------------
+++++++++++++
 
 .. function:: setAppSecret()
 
@@ -66,7 +67,7 @@ setAppSecret
 
 
 getAppSecret
-------------
+++++++++++++
 
 .. function:: getAppSecret()
 
@@ -76,7 +77,7 @@ getAppSecret
 
 
 setFileUpload
--------------
++++++++++++++
 
 .. function:: setFileUpload()
 
@@ -88,7 +89,7 @@ setFileUpload
 
 
 getFileUpload
--------------
++++++++++++++
 
 .. function:: getFileUpload()
 
@@ -98,7 +99,7 @@ getFileUpload
 
 
 setAppName
-----------
+++++++++++
 
 .. function:: setAppName()
 
@@ -110,7 +111,7 @@ setAppName
 
 
 getAppName
-----------
+++++++++++
 
 .. function:: getAppName()
 
@@ -120,7 +121,7 @@ getAppName
 
 
 setAppNamespace
----------------
++++++++++++++++
 
 .. function:: setAppNamespace()
 
@@ -132,7 +133,7 @@ setAppNamespace
 
 
 getAppNamespace
----------------
++++++++++++++++
 
 .. function:: getAppNamespace()
 
@@ -142,7 +143,7 @@ getAppNamespace
 
 
 setAdmins
----------
++++++++++
 
 .. function:: setAdmins()
 
@@ -154,7 +155,7 @@ setAdmins
 
 
 getAdmins
----------
++++++++++
 
 .. function:: getAdmins()
 
@@ -164,7 +165,7 @@ getAdmins
 
 
 setDevelopers
--------------
++++++++++++++
 
 .. function:: setDevelopers()
 
@@ -176,7 +177,7 @@ setDevelopers
 
 
 getDevelopers
--------------
++++++++++++++
 
 .. function:: getDevelopers()
 
@@ -186,7 +187,7 @@ getDevelopers
 
 
 setBaseUrl
-----------
+++++++++++
 
 .. function:: setBaseUrl()
 
@@ -198,7 +199,7 @@ setBaseUrl
 
 
 getBaseUrl
-----------
+++++++++++
 
 .. function:: getBaseUrl()
 
@@ -208,37 +209,37 @@ getBaseUrl
 
 
 getCanvasUrl
-------------
+++++++++++++
 
 .. function:: getCanvasUrl()
 
 
-    Get Canvas app URL
+    Get Canvas URL
 
 
 
-getPageTabUrl
--------------
+getTabUrl
++++++++++
 
-.. function:: getPageTabUrl()
-
-
-    Get Page Tab URL
+.. function:: getTabUrl()
 
 
-
-getAddPageTabUrl
-----------------
-
-.. function:: getAddPageTabUrl()
+    Get Tab URL
 
 
-    Get Add Page Tab URL
+
+getAddTabUrl
+++++++++++++
+
+.. function:: getAddTabUrl()
+
+
+    Get Add Tab URL
 
 
 
 setExtendedPerms
-----------------
+++++++++++++++++
 
 .. function:: setExtendedPerms()
 
@@ -250,7 +251,7 @@ setExtendedPerms
 
 
 getExtendedPerms
-----------------
+++++++++++++++++
 
 .. function:: getExtendedPerms()
 
@@ -260,7 +261,7 @@ getExtendedPerms
 
 
 setExtendedPermsAdmin
----------------------
++++++++++++++++++++++
 
 .. function:: setExtendedPermsAdmin()
 
@@ -272,7 +273,7 @@ setExtendedPermsAdmin
 
 
 getExtendedPermsAdmin
----------------------
++++++++++++++++++++++
 
 .. function:: getExtendedPermsAdmin()
 
@@ -282,7 +283,7 @@ getExtendedPermsAdmin
 
 
 setFanPageHash
---------------
+++++++++++++++
 
 .. function:: setFanPageHash()
 
@@ -296,7 +297,7 @@ setFanPageHash
 
 
 getFanPageHash
---------------
+++++++++++++++
 
 .. function:: getFanPageHash()
 
@@ -306,7 +307,7 @@ getFanPageHash
 
 
 setForceFacebookView
---------------------
+++++++++++++++++++++
 
 .. function:: setForceFacebookView()
 
@@ -320,7 +321,7 @@ setForceFacebookView
 
 
 getForceFacebookView
---------------------
+++++++++++++++++++++
 
 .. function:: getForceFacebookView()
 
@@ -330,7 +331,7 @@ getForceFacebookView
 
 
 setThirdPartyCookieFix
-----------------------
+++++++++++++++++++++++
 
 .. function:: setThirdPartyCookieFix()
 
@@ -344,7 +345,7 @@ setThirdPartyCookieFix
 
 
 getThirdPartyCookieFix
-----------------------
+++++++++++++++++++++++
 
 .. function:: getThirdPartyCookieFix()
 
@@ -354,7 +355,7 @@ getThirdPartyCookieFix
 
 
 setGraphUserFields
-------------------
+++++++++++++++++++
 
 .. function:: setGraphUserFields()
 
@@ -366,7 +367,7 @@ setGraphUserFields
 
 
 getGraphUserFields
-------------------
+++++++++++++++++++
 
 .. function:: getGraphUserFields()
 
@@ -376,7 +377,7 @@ getGraphUserFields
 
 
 setGraphPageFields
-------------------
+++++++++++++++++++
 
 .. function:: setGraphPageFields()
 
@@ -388,7 +389,7 @@ setGraphPageFields
 
 
 getGraphPageFields
-------------------
+++++++++++++++++++
 
 .. function:: getGraphPageFields()
 
@@ -398,7 +399,7 @@ getGraphPageFields
 
 
 setLogoutRoute
---------------
+++++++++++++++
 
 .. function:: setLogoutRoute()
 
@@ -410,12 +411,37 @@ setLogoutRoute
 
 
 getLogoutRoute
---------------
+++++++++++++++
 
 .. function:: getLogoutRoute()
 
 
     Get logout route
+
+
+
+setPageId
++++++++++
+
+.. function:: setPageId()
+
+
+    Set page ID
+    
+    Only use this if you need page data on a Canvas, Facebook Connect app
+    or AJAX request where the Page data is not known.
+
+    :param string: 
+
+
+
+getPageId
++++++++++
+
+.. function:: getPageId()
+
+
+    Get page ID
 
 
 
